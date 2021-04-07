@@ -1,0 +1,11 @@
+builds:
+  - skip: true
+checksum:
+  name_template: 'checksums.txt'
+release:
+  github:
+    owner: Lonor
+    name: word
+  draft: false
+  extra_files:
+    - glob: ./release/*
