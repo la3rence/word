@@ -6,6 +6,8 @@ Register an account:
 
 https://dict.eudic.net/Account/Register
 
+Make sure you pick a word book to recite on eudic's website or mobile app.
+
 ## Expose the account to your shell
 
 On macOS / Linux:
