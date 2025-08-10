@@ -23,7 +23,7 @@ jobs:
             CGO_ENABLED=0 GOOS=$os go build -ldflags '-w -s' -o release/word-$os-$GOARCH
           done
       - name: UPX
-        uses: crazy-max/ghaction-upx@v2
+        uses: crazy-max/ghaction-upx@v3
         with:
           version: latest
           file: release/*
